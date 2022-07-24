@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(6, 6, 98);
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.contenedor .nav {
+    width: 100%;
+    height: 100vh;
+}
+/* Header */
+
+.contenedor-1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.productos {
+    width: 90%;
+
+    margin: auto;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+     
+}
+
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(230, 246, 1, 0);
+    border-bottom: 1px solid transparent;
+    justify-content: space-between;
+
+
+
+    transition: ease-in-out 0.5s;
+}
+
+.nav {
+    display: flex;
+    
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.nav .logo {
+    height: 100%;
+
+}
+
+.nav .logo img {
+    height: 100%;
+    vertical-align: top;
+
+}
+
+.enlaces-nav {
+    
+    font-weight: 300;
+
+}
+
+.nav .enlaces-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 20px;
+    
+
+}
+
+.contenido-header{
+    text-align: center;
+}
+
+.contenido-header p {
+    font-weight: 100%;
+    margin-top: 20px;
+    color: rgb(53, 51, 51);
+}
+
+
+
+
+.hamburger {
+    width: 80px;
+    height: 80px;
+    background: cadetblue;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+
+/* main */
+
+.contenedor-articulo {
+    display: flex;
+    /* flex-direction:column ; */
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-between;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 60px;
+    
+
+}
+
+main {
+    background: wheat;
+    text-align: center;
+
+
+}
+
+.articulo {
+    width: 100%;
+    background: rgb(196, 65, 65);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    color: white;
+    transition: 0.5s;
+
+
+}
+
+.articulo h2 {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.articulo>p {
+    font-weight: 100;
+    /* color: grey; */
+    margin-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Juegos */
+
+.tabla-juegos {
+    font-size: 30px;
+}
+
+main table tr td {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* store  html */
+.hero-p {
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.485));
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(188, 155, 5, 0.852);
+
+
+
+}
+
+
+.hero-p h2 {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.795);
+
+}
+
+.hero-p p {
+    padding: 20px;
+
+}
+
+.hero-p a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+
+/* cartas */
+.div-cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-top: 25px;
+    background: rgba(0, 0, 0, 0.469);
+    padding: 20px;
+}
+
+.cartas h3 {
+
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.cartas div div img {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+
+
+}
+
+.cartas div div {
+    border: 1px solid rebeccapurple;
+    border-radius: 50px;
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+
+
+}
+
+.cartas div div h3 {
+    margin-bottom: 10px;
+
+}
+
+.cartas div div a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 900;
+    padding: 3px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pokedex */
+
+
+
+.pokedex {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+
+}
+
+.img-fotos h5 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.img-fotos {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+
+}
+
+.pokedex img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+    animation: ease-in animat 3s;
+}
+
+@keyframes animat {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.contenedor {
+    position: relative;
+}
+
+.contenedor h5 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.687);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.img-1 {
+    grid-column-start: span 2;
+
+}
+
+
+.img-3 {
+    /* grid-column-start: span 2; */
+    grid-row-start: span 2;
+}
+
+.img-5 {
+    grid-column-start: span 1;
+    grid-row-start: span 2;
+}
+
+.img-8 {
+    grid-column-start: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOSOTROS */
+
+.nosotros {
+
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.titulo-nosotros {
+    margin-top: 100px
+}
+
+
+
+.sobre-nosotros {
+    margin-top: 100px;
+}
+
+
+
+
+
+.sobre-nosotros img {
+    height: 400px;
+    width: 50%;
+    animation: ease-in animat 3s;
+}
+
+
+
+
+.texto-nosotros {
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+.ubi-nosotros img {
+
+    height: 50vh;
+    width: 50%;
+    margin-top: 10px;
+    animation: reverse animat 3s;
+}
+
+.ubi-nosotros h4 {
+    font-size: 40px;
+    color: green;
+}
+
+.ubi-nosotros p {
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(146, 90, 18);
+    padding: 20px 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.cajas-footer> {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+
+}
+
+.cajas-footer img {
+    width: 25%;
+}
+
+.cajas-footer h4 {
+    color: rgb(46, 7, 146);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+.cajas-footer a {
+    text-decoration: none;
+    display: block;
+    color: rgba(245, 222, 179, 0.727);
+    font-size: 20px;
+    font-weight: 300;
+    transition: ease-in-out .3s;
+    margin-bottom: 10px;
+}
+
+.link-footer :hover {
+    color: rgb(255, 0, 17);
+
+}
+
+.cajas-footer i {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: ease-in-out .3s;
+}
+
+.iconos-redes i:hover {
+    color: blue;
+    background-color: aqua;
+}
+
+
+
+/* media query */
+
+/* inicio */
+@media screen and (max-width:650px) {
+    .hero-p h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 50%;
+        font-size: 60px;
+        line-height: 60px;
+        border: 2px solid white;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.795);
+        color: red;
+    
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:650px) {
+    .articulo {
+        flex-direction: column;
+        width: 100%;
+        
+        padding:  0px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:320px) {
+    header  {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:80px) {
+    .titulo {
+        font-size: 45px;
+    }
+}
+
+
+/* Pokedex */
+@media screen and (max-width:768px) {
+    .pokedex {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 200px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .pokedex {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .tabla-juegos {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .tabla-juegos {
+        padding: 5px;
+        font-size: 10px;
+    }
+}
