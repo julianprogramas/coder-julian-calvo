@@ -504,7 +504,7 @@ main table tr td {
 
 .nosotros {
 
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -558,6 +558,7 @@ main table tr td {
     font-family: monospace;
     color: white;
     background-color: black;
+    margin-top: 30px;
 
 
 }
