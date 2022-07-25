@@ -205,40 +205,6 @@ main table tr td {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* store  html */
 .hero-p {
     background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.485));
@@ -337,47 +303,6 @@ main table tr td {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* pokedex */
 
 
@@ -386,7 +311,7 @@ main table tr td {
     width: 100%;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-auto-rows: 200px;
     gap: 15px;
 
@@ -402,16 +327,16 @@ main table tr td {
 }
 
 .img-fotos {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     border: 1px solid black;
     object-fit: cover;
 
 }
 
 .pokedex img {
-    width: 100%;
-    height: 100%;
+     width: 100%;
+     height: 100%; 
     border: 1px solid black;
     object-fit: cover;
     animation: ease-in animat 3s;
@@ -459,48 +384,8 @@ main table tr td {
 
 .img-8 {
     grid-column-start: span 2;
+    grid-row-start: span 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -523,9 +408,6 @@ main table tr td {
 .sobre-nosotros {
     margin-top: 100px;
 }
-
-
-
 
 
 .sobre-nosotros img {
@@ -564,29 +446,7 @@ main table tr td {
     background-color: black;
     margin-top: 30px;
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
